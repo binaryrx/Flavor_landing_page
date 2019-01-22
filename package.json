@@ -1,16 +1,16 @@
 {
-	"name": "project-name",
+	"name": "flavor_landing_page",
 	"version": "0.0.1",
-	"description": "A description for your project.",
+	"description": "Flavor Landing Page.",
 	"main": "./dist/your-main-js-file.js",
 	"author": {
-		"name": "YOUR NAME",
+		"name": "BinaryRx",
 		"url": "http://link-to-your-website.com"
 	},
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "http://link-to-your-git-repo.com"
+		"url": "https://github.com/binaryrx/Flavor_landing_page"
 	},
 	"devDependencies": {
 		"gulp": "4.0.0",

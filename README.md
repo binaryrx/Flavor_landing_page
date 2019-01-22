@@ -43,7 +43,7 @@ Make sure these are installed first.
 
 Add your source files to the appropriate `src` subdirectories. Gulp will process and and compile them into `dist`.
 
-- JavaScript files in the `src/js` directory will be compiled to `dist/js`. Files in subdirectories under the `js` folder will be concatenated. For example, files in `js/detects` will compile into `detects.js`.
+- JavaScript files in the `src/js` directory will be compiled to `dist/js`. Files in subdirectories under the `js` folder will be concatenated. For example, files in `js/detects` will compile into `main.js`.
 - Files in the `dist/sass` directory will be compiled to `src/css`.
 - SVG files placed in the `src/svg` directory will be optimized with SVGO and compiled into `dist/svg`.
 - Files and folders placed in the `copy` directory will be copied as-in into the `dist` directory.
@@ -79,7 +79,7 @@ Some information is automatically pulled in from it and added to a header that's
 
 Put your JavaScript files in the `src/js` directory.
 
-Files placed directly in the `js` folder will compile directly to `dist/js` as both minified and unminified files. Files placed in subdirectories under `src/js` will also be concatenated into a single file. For example, files in `js/detects` will compile into `detects.js`.
+Files placed directly in the `js` folder will compile directly to `dist/js` as both minified and unminified files. Files placed in subdirectories under `src/js` will also be concatenated into a single file. For example, files in `js/detects` will compile into `main.js`.
 
 *__A note about polyfills:__ In subdirectories that contain files with the `.polyfill.js` suffix (for example, `_matches.polyfill.js`), two versions will be created: one with the polyfill files, and one without.*
 

@@ -1,0 +1,144 @@
+@import "vars_mixins";
+
+//HEAD SECTION STYLE
+section.head{
+    margin-bottom:-80px;
+    .container-fluid{
+        margin:0 0;
+        padding:30px;
+        .flavor-logo{
+            width:10.7%;
+            float:left;
+            left: 10px;
+        }
+        .background-logo{
+            width:87%;
+            float:right;
+            position:relative;
+            .flavor-text-top-left{
+                position: absolute;
+                top:3%;
+                left:2%;
+                border:solid 3px red;
+                color:white;
+                font-size:24px;
+                @include f-bold;
+                padding:15px;
+            }
+            .background-txt{
+                position: absolute;
+                top:53%;
+                left:50%;
+                transform:translate(-50%,50%);
+                background: black;
+                color:white;
+                font-size: 48px;
+                @include f-medium;
+                padding: 5px 40px;
+            }
+            .flavor-small-logo{
+                position: absolute;
+                top:3%;
+                right:3%;
+                img{
+                    filter:brightness(0) invert(1);
+                }
+            }
+            .background-txt-sub{
+                background:white;
+                position: relative;
+                top:-90px;
+                text-align:center;
+                width: 60%;
+                transform: translateX(-35%);
+                display: flex;
+                justify-content: space-around;
+                padding:20px;
+                .service{
+                    display:inline-block;
+                    span{
+                        @include f-bold;
+                        font-size:20px;
+                        margin-right: 10px;
+                    }
+                }
+
+            }
+        }
+    }
+}
+//HEAD SECTION STYLE -END
+
+//INFO SECTION STYLE
+section.form{
+    background-image: url("../images/background-info-section.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .slide{
+        width:50%;
+        float:left;
+    }
+    .txt{
+
+        p{
+            text-align:right;
+            @include f-regular;
+            font-size:18px;
+            padding-top: 70px;
+            padding-right: 120px;
+            padding-left: 40px;
+            width: 45%;
+        }
+    }
+    .form-box{
+        margin-top:200px;
+        h2{
+            font-size:36px;
+            @include f-medium;
+            margin-bottom: 30px;
+        }
+        div.wpcf7{
+            margin-bottom:30px;
+            form{
+                span{
+                    margin-right: 10px;
+                    margin-left: 10px;
+                    input{
+                        padding:15px;
+                        background:#d7d7d7;
+                        border:none;
+                    }
+                    input::placeholder{
+                        color:black;
+                    }
+                }
+                input#send_btn{
+                    background: #c31432;
+                    border:none;
+                    padding:15px;
+                    width:200px;
+                    color:white;
+                }
+            }
+        }
+        p.smaller{
+            span.small-txt{
+                font-size:24px;
+                @include f-bold;
+            }
+            span.small-tell{
+                @include f-bold;
+                color:#c31432;
+                font-size:24px;
+            }
+        }
+    }
+}
+//INFO SECTION STYLE - END
+
+
+//FORM SECTION STYLE
+section.form{
+    text-align: center;
+}
+//FORM SECTION STYLE -END

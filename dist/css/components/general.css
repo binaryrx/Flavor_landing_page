@@ -1,0 +1,205 @@
+/*!
+ * flavor_landing_page v0.0.1
+ * Flavor Landing Page.
+ * (c) 2019 BinaryRx
+ * MIT License
+ * https://github.com/binaryrx/Flavor_landing_page
+ */
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700");
+/* /Fonts */
+/* line 4, src/sass/components/general.scss */
+section.head {
+  margin-bottom: -80px;
+}
+
+/* line 6, src/sass/components/general.scss */
+section.head .container-fluid {
+  margin: 0 0;
+  padding: 30px;
+}
+
+/* line 9, src/sass/components/general.scss */
+section.head .container-fluid .flavor-logo {
+  width: 10.7%;
+  float: left;
+  left: 10px;
+}
+
+/* line 14, src/sass/components/general.scss */
+section.head .container-fluid .background-logo {
+  width: 87%;
+  float: right;
+  position: relative;
+}
+
+/* line 18, src/sass/components/general.scss */
+section.head .container-fluid .background-logo .flavor-text-top-left {
+  position: absolute;
+  top: 3%;
+  left: 2%;
+  border: solid 3px red;
+  color: white;
+  font-size: 24px;
+  font-family: 'Rubik', sans-serif !important;
+  font-weight: 700 !important;
+  padding: 15px;
+}
+
+/* line 28, src/sass/components/general.scss */
+section.head .container-fluid .background-logo .background-txt {
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+  background: black;
+  color: white;
+  font-size: 48px;
+  font-family: 'Rubik', sans-serif !important;
+  font-weight: 500 !important;
+  padding: 5px 40px;
+}
+
+/* line 39, src/sass/components/general.scss */
+section.head .container-fluid .background-logo .flavor-small-logo {
+  position: absolute;
+  top: 3%;
+  right: 3%;
+}
+
+/* line 43, src/sass/components/general.scss */
+section.head .container-fluid .background-logo .flavor-small-logo img {
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
+
+/* line 47, src/sass/components/general.scss */
+section.head .container-fluid .background-logo .background-txt-sub {
+  background: white;
+  position: relative;
+  top: -90px;
+  text-align: center;
+  width: 60%;
+  -webkit-transform: translateX(-35%);
+          transform: translateX(-35%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 20px;
+}
+
+/* line 57, src/sass/components/general.scss */
+section.head .container-fluid .background-logo .background-txt-sub .service {
+  display: inline-block;
+}
+
+/* line 59, src/sass/components/general.scss */
+section.head .container-fluid .background-logo .background-txt-sub .service span {
+  font-family: 'Rubik', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+/* line 73, src/sass/components/general.scss */
+section.form {
+  background-image: url("../images/background-info-section.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 77, src/sass/components/general.scss */
+section.form .slide {
+  width: 50%;
+  float: left;
+}
+
+/* line 83, src/sass/components/general.scss */
+section.form .txt p {
+  text-align: right;
+  font-family: 'Rubik', sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 18px;
+  padding-top: 70px;
+  padding-right: 120px;
+  padding-left: 40px;
+  width: 45%;
+}
+
+/* line 93, src/sass/components/general.scss */
+section.form .form-box {
+  margin-top: 200px;
+}
+
+/* line 95, src/sass/components/general.scss */
+section.form .form-box h2 {
+  font-size: 36px;
+  font-family: 'Rubik', sans-serif !important;
+  font-weight: 500 !important;
+  margin-bottom: 30px;
+}
+
+/* line 100, src/sass/components/general.scss */
+section.form .form-box div.wpcf7 {
+  margin-bottom: 30px;
+}
+
+/* line 103, src/sass/components/general.scss */
+section.form .form-box div.wpcf7 form span {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* line 106, src/sass/components/general.scss */
+section.form .form-box div.wpcf7 form span input {
+  padding: 15px;
+  background: #d7d7d7;
+  border: none;
+}
+
+/* line 111, src/sass/components/general.scss */
+section.form .form-box div.wpcf7 form span input::-webkit-input-placeholder {
+  color: black;
+}
+section.form .form-box div.wpcf7 form span input:-ms-input-placeholder {
+  color: black;
+}
+section.form .form-box div.wpcf7 form span input::-ms-input-placeholder {
+  color: black;
+}
+section.form .form-box div.wpcf7 form span input::placeholder {
+  color: black;
+}
+
+/* line 115, src/sass/components/general.scss */
+section.form .form-box div.wpcf7 form input#send_btn {
+  background: #c31432;
+  border: none;
+  padding: 15px;
+  width: 200px;
+  color: white;
+}
+
+/* line 125, src/sass/components/general.scss */
+section.form .form-box p.smaller span.small-txt {
+  font-size: 24px;
+  font-family: 'Rubik', sans-serif !important;
+  font-weight: 700 !important;
+}
+
+/* line 129, src/sass/components/general.scss */
+section.form .form-box p.smaller span.small-tell {
+  font-family: 'Rubik', sans-serif !important;
+  font-weight: 700 !important;
+  color: #c31432;
+  font-size: 24px;
+}
+
+/* line 141, src/sass/components/general.scss */
+section.form {
+  text-align: center;
+}
