@@ -50,7 +50,7 @@ section.head .container-fluid .background-logo .flavor-text-top-left {
 /* line 28, src/sass/components/general.scss */
 section.head .container-fluid .background-logo .background-txt {
   position: absolute;
-  top: 53%;
+  bottom: 36%;
   left: 50%;
   -webkit-transform: translate(-50%, 50%);
           transform: translate(-50%, 50%);
@@ -94,10 +94,15 @@ section.head .container-fluid .background-logo .background-txt-sub {
 
 /* line 57, src/sass/components/general.scss */
 section.head .container-fluid .background-logo .background-txt-sub .service {
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-/* line 59, src/sass/components/general.scss */
+/* line 60, src/sass/components/general.scss */
 section.head .container-fluid .background-logo .background-txt-sub .service span {
   font-family: 'Rubik', sans-serif !important;
   font-weight: 700 !important;
@@ -105,20 +110,20 @@ section.head .container-fluid .background-logo .background-txt-sub .service span
   margin-right: 10px;
 }
 
-/* line 73, src/sass/components/general.scss */
+/* line 74, src/sass/components/general.scss */
 section.form {
   background-image: url("../images/background-info-section.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 77, src/sass/components/general.scss */
+/* line 78, src/sass/components/general.scss */
 section.form .slide {
   width: 50%;
   float: left;
 }
 
-/* line 83, src/sass/components/general.scss */
+/* line 84, src/sass/components/general.scss */
 section.form .txt p {
   text-align: right;
   font-family: 'Rubik', sans-serif !important;
@@ -130,12 +135,12 @@ section.form .txt p {
   width: 45%;
 }
 
-/* line 93, src/sass/components/general.scss */
+/* line 94, src/sass/components/general.scss */
 section.form .form-box {
   margin-top: 200px;
 }
 
-/* line 95, src/sass/components/general.scss */
+/* line 96, src/sass/components/general.scss */
 section.form .form-box h2 {
   font-size: 36px;
   font-family: 'Rubik', sans-serif !important;
@@ -143,25 +148,25 @@ section.form .form-box h2 {
   margin-bottom: 30px;
 }
 
-/* line 100, src/sass/components/general.scss */
+/* line 101, src/sass/components/general.scss */
 section.form .form-box div.wpcf7 {
   margin-bottom: 30px;
 }
 
-/* line 103, src/sass/components/general.scss */
+/* line 104, src/sass/components/general.scss */
 section.form .form-box div.wpcf7 form span {
   margin-right: 10px;
   margin-left: 10px;
 }
 
-/* line 106, src/sass/components/general.scss */
+/* line 107, src/sass/components/general.scss */
 section.form .form-box div.wpcf7 form span input {
   padding: 15px;
   background: #d7d7d7;
   border: none;
 }
 
-/* line 111, src/sass/components/general.scss */
+/* line 112, src/sass/components/general.scss */
 section.form .form-box div.wpcf7 form span input::-webkit-input-placeholder {
   color: black;
 }
@@ -175,7 +180,7 @@ section.form .form-box div.wpcf7 form span input::placeholder {
   color: black;
 }
 
-/* line 115, src/sass/components/general.scss */
+/* line 116, src/sass/components/general.scss */
 section.form .form-box div.wpcf7 form input#send_btn {
   background: #c31432;
   border: none;
@@ -184,14 +189,14 @@ section.form .form-box div.wpcf7 form input#send_btn {
   color: white;
 }
 
-/* line 125, src/sass/components/general.scss */
+/* line 126, src/sass/components/general.scss */
 section.form .form-box p.smaller span.small-txt {
   font-size: 24px;
   font-family: 'Rubik', sans-serif !important;
   font-weight: 700 !important;
 }
 
-/* line 129, src/sass/components/general.scss */
+/* line 130, src/sass/components/general.scss */
 section.form .form-box p.smaller span.small-tell {
   font-family: 'Rubik', sans-serif !important;
   font-weight: 700 !important;
@@ -199,7 +204,321 @@ section.form .form-box p.smaller span.small-tell {
   font-size: 24px;
 }
 
-/* line 141, src/sass/components/general.scss */
+/* line 142, src/sass/components/general.scss */
 section.form {
   text-align: center;
+}
+
+@media screen and (max-width: 1800px) {
+  /* line 163, src/sass/components/general.scss */
+  section.head .container-fluid .background-logo .background-txt {
+    font-size: 42px;
+  }
+  /* line 196, src/sass/components/general.scss */
+  section.form .form-box {
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  /* line 230, src/sass/components/general.scss */
+  section.head {
+    margin-bottom: -70px;
+  }
+  /* line 242, src/sass/components/general.scss */
+  section.head .container-fluid .background-logo .background-txt {
+    font-size: 42px;
+    padding: 0px 30px;
+  }
+  /* line 252, src/sass/components/general.scss */
+  section.head .container-fluid .background-logo .background-txt-sub {
+    padding: 10px;
+    top: -80px;
+  }
+  /* line 277, src/sass/components/general.scss */
+  section.form .form-box {
+    margin-top: 135px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  /* line 352, src/sass/components/general.scss */
+  section.form .txt p {
+    padding-top: 50px;
+    padding-right: 120px;
+    padding-left: 10px;
+    width: 45%;
+  }
+  /* line 359, src/sass/components/general.scss */
+  section.form .form-box {
+    margin-top: 100px;
+  }
+  /* line 369, src/sass/components/general.scss */
+  section.form .form-box div.wpcf7 form span input {
+    width: 22%;
+  }
+  /* line 376, src/sass/components/general.scss */
+  section.form .form-box div.wpcf7 form input#send_btn {
+    width: 175px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  /* line 405, src/sass/components/general.scss */
+  section.head .container-fluid .background-logo .background-txt {
+    font-size: 36px;
+    bottom: 37%;
+  }
+  /* line 435, src/sass/components/general.scss */
+  section.form .txt p {
+    padding-top: 30px;
+    font-size: 16px;
+    padding-right: 100px;
+  }
+  /* line 441, src/sass/components/general.scss */
+  section.form .form-box {
+    margin-top: 100px;
+  }
+  /* line 451, src/sass/components/general.scss */
+  section.form .form-box div.wpcf7 form span input {
+    width: 22%;
+  }
+  /* line 458, src/sass/components/general.scss */
+  section.form .form-box div.wpcf7 form input#send_btn {
+    width: 175px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  /* line 476, src/sass/components/general.scss */
+  section.head {
+    margin-bottom: -60px;
+  }
+  /* line 488, src/sass/components/general.scss */
+  section.head .container-fluid .background-logo .background-txt {
+    font-size: 36px;
+    bottom: 37%;
+  }
+  /* line 498, src/sass/components/general.scss */
+  section.head .container-fluid .background-logo .background-txt-sub {
+    padding: 5px;
+    top: -73px;
+  }
+  /* line 519, src/sass/components/general.scss */
+  section.form .txt p {
+    padding-top: 30px;
+    font-size: 16px;
+    padding-right: 100px;
+  }
+  /* line 525, src/sass/components/general.scss */
+  section.form .form-box {
+    margin-top: 80px;
+  }
+  /* line 535, src/sass/components/general.scss */
+  section.form .form-box div.wpcf7 form span input {
+    width: 22%;
+  }
+  /* line 542, src/sass/components/general.scss */
+  section.form .form-box div.wpcf7 form input#send_btn {
+    width: 175px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /* line 559, src/sass/components/general.scss */
+  section.head {
+    margin-bottom: -50px;
+  }
+  /* line 571, src/sass/components/general.scss */
+  section.head .container-fluid .background-logo .background-txt {
+    font-size: 32px;
+    bottom: 37%;
+    padding: 0px 20px;
+    height: 55px;
+  }
+  /* line 583, src/sass/components/general.scss */
+  section.head .container-fluid .background-logo .background-txt-sub {
+    padding: 2px;
+    top: -68px;
+  }
+  /* line 588, src/sass/components/general.scss */
+  section.head .container-fluid .background-logo .background-txt-sub .service span {
+    font-size: 16px;
+  }
+  /* line 604, src/sass/components/general.scss */
+  section.form .txt p {
+    padding-top: 20px;
+    font-size: 15px;
+    padding-right: 80px;
+  }
+  /* line 610, src/sass/components/general.scss */
+  section.form .form-box {
+    margin-top: 80px;
+  }
+  /* line 620, src/sass/components/general.scss */
+  section.form .form-box div.wpcf7 form span input {
+    width: 22%;
+  }
+  /* line 627, src/sass/components/general.scss */
+  section.form .form-box div.wpcf7 form input#send_btn {
+    width: 175px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  /* line 644, src/sass/components/general.scss */
+  section.head {
+    margin-bottom: -35px;
+  }
+  /* line 656, src/sass/components/general.scss */
+  section.head .container-fluid .background-logo .background-txt {
+    font-size: 28px;
+    bottom: 33%;
+    padding: 0px 20px;
+    height: 45px;
+  }
+  /* line 668, src/sass/components/general.scss */
+  section.head .container-fluid .background-logo .background-txt-sub {
+    padding: 5px;
+    top: -52px;
+  }
+  /* line 672, src/sass/components/general.scss */
+  section.head .container-fluid .background-logo .background-txt-sub .service img {
+    width: 20%;
+  }
+  /* line 675, src/sass/components/general.scss */
+  section.head .container-fluid .background-logo .background-txt-sub .service span {
+    font-size: 16px;
+  }
+  /* line 691, src/sass/components/general.scss */
+  section.form .txt p {
+    padding-top: 10px;
+    font-size: 15px;
+    padding-right: 60px;
+  }
+  /* line 697, src/sass/components/general.scss */
+  section.form .form-box {
+    margin-top: 70px;
+  }
+  /* line 707, src/sass/components/general.scss */
+  section.form .form-box div.wpcf7 form span input {
+    width: 22%;
+  }
+  /* line 714, src/sass/components/general.scss */
+  section.form .form-box div.wpcf7 form input#send_btn {
+    width: 175px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  /* line 731, src/sass/components/general.scss */
+  section.head {
+    margin-bottom: -35px;
+  }
+  /* line 743, src/sass/components/general.scss */
+  section.head .container-fluid .background-logo .background-txt {
+    font-size: 28px;
+    bottom: 33%;
+    padding: 0px 20px;
+    height: 45px;
+  }
+  /* line 755, src/sass/components/general.scss */
+  section.head .container-fluid .background-logo .background-txt-sub {
+    padding: 5px;
+    top: -52px;
+  }
+  /* line 759, src/sass/components/general.scss */
+  section.head .container-fluid .background-logo .background-txt-sub .service img {
+    width: 20%;
+  }
+  /* line 762, src/sass/components/general.scss */
+  section.head .container-fluid .background-logo .background-txt-sub .service span {
+    font-size: 16px;
+  }
+  /* line 778, src/sass/components/general.scss */
+  section.form .txt p {
+    padding-top: 10px;
+    font-size: 14px;
+    padding-right: 50px;
+  }
+  /* line 784, src/sass/components/general.scss */
+  section.form .form-box {
+    margin-top: 60px;
+  }
+  /* line 794, src/sass/components/general.scss */
+  section.form .form-box div.wpcf7 form span input {
+    width: 22%;
+  }
+  /* line 801, src/sass/components/general.scss */
+  section.form .form-box div.wpcf7 form input#send_btn {
+    width: 175px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* line 822, src/sass/components/general.scss */
+  section.head {
+    margin-bottom: 0px;
+  }
+  /* line 831, src/sass/components/general.scss */
+  section.head .container-fluid .background-logo .flavor-text-top-left {
+    font-size: 33px;
+  }
+  /* line 834, src/sass/components/general.scss */
+  section.head .container-fluid .background-logo .background-txt {
+    font-size: 28px;
+    bottom: 33%;
+    padding: 0px 20px;
+    height: 45px;
+  }
+  /* line 846, src/sass/components/general.scss */
+  section.head .container-fluid .background-logo .background-txt-sub {
+    position: relative;
+    top: 0;
+    width: 100%;
+    left: 50%;
+    -webkit-transform: translateX(-58%);
+            transform: translateX(-58%);
+  }
+  /* line 853, src/sass/components/general.scss */
+  section.head .container-fluid .background-logo .background-txt-sub .service img {
+    width: unset;
+  }
+  /* line 856, src/sass/components/general.scss */
+  section.head .container-fluid .background-logo .background-txt-sub .service span {
+    font-size: 24px;
+  }
+  /* line 867, src/sass/components/general.scss */
+  section.form .slide {
+    width: 100%;
+    float: unset;
+  }
+  /* line 873, src/sass/components/general.scss */
+  section.form .txt p {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 75%;
+    padding-top: 20px;
+    font-size: 30px;
+  }
+  /* line 882, src/sass/components/general.scss */
+  section.form .form-box {
+    margin-top: 60px;
+  }
+  /* line 890, src/sass/components/general.scss */
+  section.form .form-box div.wpcf7 form span {
+    display: block;
+    margin-bottom: 20px;
+  }
+  /* line 893, src/sass/components/general.scss */
+  section.form .form-box div.wpcf7 form span input {
+    width: 75%;
+    font-size: 28px;
+  }
+  /* line 901, src/sass/components/general.scss */
+  section.form .form-box div.wpcf7 form input#send_btn {
+    width: 75%;
+    font-size: 28px;
+  }
 }

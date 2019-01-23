@@ -27,7 +27,7 @@ section.head{
             }
             .background-txt{
                 position: absolute;
-                top:53%;
+                bottom: 36%;
                 left:50%;
                 transform:translate(-50%,50%);
                 background: black;
@@ -55,7 +55,8 @@ section.head{
                 justify-content: space-around;
                 padding:20px;
                 .service{
-                    display:inline-block;
+                    display: flex;
+                    align-items: center;
                     span{
                         @include f-bold;
                         font-size:20px;
@@ -142,3 +143,777 @@ section.form{
     text-align: center;
 }
 //FORM SECTION STYLE -END
+
+
+///////////////////////desktop queries -START
+
+@media screen and(max-width: 1800px){
+  section.head{
+
+    .container-fluid{
+
+      .flavor-logo{
+
+      }
+      .background-logo{
+
+        .flavor-text-top-left{
+
+        }
+        .background-txt{
+          font-size:42px;
+        }
+        .flavor-small-logo{
+
+          img{
+
+          }
+        }
+        .background-txt-sub{
+
+          .service{
+
+            span{
+
+            }
+          }
+
+        }
+      }
+    }
+  }
+  section.form{
+
+    .slide{
+
+    }
+    .txt{
+
+      p{
+
+      }
+    }
+    .form-box{
+      margin-top:150px;
+      h2{
+
+      }
+      div.wpcf7{
+
+        form{
+          span{
+
+            input{
+
+            }
+            input::placeholder{
+
+            }
+          }
+          input#send_btn{
+
+          }
+        }
+      }
+      p.smaller{
+        span.small-txt{
+
+        }
+        span.small-tell{
+
+        }
+      }
+    }
+  }
+}
+@media screen and(max-width: 1700px){
+  section.head{
+    margin-bottom: -70px;
+    .container-fluid{
+
+      .flavor-logo{
+
+      }
+      .background-logo{
+
+        .flavor-text-top-left{
+
+        }
+        .background-txt{
+          font-size:42px;
+          padding: 0px 30px;
+        }
+        .flavor-small-logo{
+
+          img{
+
+          }
+        }
+        .background-txt-sub{
+            padding:10px;
+            top:-80px;
+          .service{
+
+            span{
+
+            }
+          }
+
+        }
+      }
+    }
+  }
+  section.form{
+
+    .slide{
+
+    }
+    .txt{
+
+      p{
+
+      }
+    }
+    .form-box{
+      margin-top:135px;
+      h2{
+
+      }
+      div.wpcf7{
+
+        form{
+          span{
+
+            input{
+
+            }
+            input::placeholder{
+
+            }
+          }
+          input#send_btn{
+
+          }
+        }
+      }
+      p.smaller{
+        span.small-txt{
+
+        }
+        span.small-tell{
+
+        }
+      }
+    }
+  }
+}
+@media screen and(max-width: 1600px){
+  section.head{
+
+    .container-fluid{
+
+      .flavor-logo{
+
+      }
+      .background-logo{
+
+        .flavor-text-top-left{
+
+        }
+        .background-txt{
+
+        }
+        .flavor-small-logo{
+
+          img{
+
+          }
+        }
+        .background-txt-sub{
+
+          .service{
+
+            span{
+
+            }
+          }
+
+        }
+      }
+    }
+  }
+  section.form{
+
+    .slide{
+
+    }
+    .txt{
+
+      p{
+        padding-top: 50px;
+        padding-right: 120px;
+        padding-left: 10px;
+        width: 45%;
+      }
+    }
+    .form-box{
+      margin-top:100px;
+      h2{
+
+      }
+      div.wpcf7{
+
+        form{
+          span{
+
+            input{
+              width:22%;
+            }
+            input::placeholder{
+
+            }
+          }
+          input#send_btn{
+            width:175px
+          }
+        }
+      }
+      p.smaller{
+        span.small-txt{
+
+        }
+        span.small-tell{
+
+        }
+      }
+    }
+  }
+}
+@media screen and(max-width: 1400px){
+  section.head{
+
+    .container-fluid{
+
+      .flavor-logo{
+
+      }
+      .background-logo{
+
+        .flavor-text-top-left{
+
+        }
+        .background-txt{
+          font-size: 36px;
+          bottom: 37%;
+        }
+        .flavor-small-logo{
+
+          img{
+
+          }
+        }
+        .background-txt-sub{
+
+          .service{
+
+            span{
+
+            }
+          }
+
+        }
+      }
+    }
+  }
+  section.form{
+
+    .slide{
+
+    }
+    .txt{
+
+      p{
+        padding-top: 30px;
+        font-size: 16px;
+        padding-right: 100px;
+      }
+    }
+    .form-box{
+      margin-top:100px;
+      h2{
+
+      }
+      div.wpcf7{
+
+        form{
+          span{
+
+            input{
+              width:22%;
+            }
+            input::placeholder{
+
+            }
+          }
+          input#send_btn{
+            width:175px
+          }
+        }
+      }
+      p.smaller{
+        span.small-txt{
+
+        }
+        span.small-tell{
+
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 1300px){
+  section.head{
+    margin-bottom:-60px;
+    .container-fluid{
+
+      .flavor-logo{
+
+      }
+      .background-logo{
+
+        .flavor-text-top-left{
+
+        }
+        .background-txt{
+          font-size: 36px;
+          bottom: 37%;
+        }
+        .flavor-small-logo{
+
+          img{
+
+          }
+        }
+        .background-txt-sub{
+          padding: 5px;
+          top: -73px;
+          .service{
+
+            span{
+
+            }
+          }
+
+        }
+      }
+    }
+  }
+  section.form{
+
+    .slide{
+
+    }
+    .txt{
+
+      p{
+        padding-top: 30px;
+        font-size: 16px;
+        padding-right: 100px;
+      }
+    }
+    .form-box{
+      margin-top:80px;
+      h2{
+
+      }
+      div.wpcf7{
+
+        form{
+          span{
+
+            input{
+              width:22%;
+            }
+            input::placeholder{
+
+            }
+          }
+          input#send_btn{
+            width:175px
+          }
+        }
+      }
+      p.smaller{
+        span.small-txt{
+
+        }
+        span.small-tell{
+
+        }
+      }
+    }
+  }
+}
+@media screen and(max-width: 1200px){
+  section.head{
+    margin-bottom:-50px;
+    .container-fluid{
+
+      .flavor-logo{
+
+      }
+      .background-logo{
+
+        .flavor-text-top-left{
+
+        }
+        .background-txt{
+          font-size: 32px;
+          bottom: 37%;
+          padding: 0px 20px;
+          height: 55px;
+        }
+        .flavor-small-logo{
+
+          img{
+
+          }
+        }
+        .background-txt-sub{
+          padding: 2px;
+          top: -68px;
+          .service{
+
+            span{
+              font-size: 16px;
+            }
+          }
+
+        }
+      }
+    }
+  }
+  section.form{
+
+    .slide{
+
+    }
+    .txt{
+
+      p{
+        padding-top: 20px;
+        font-size: 15px;
+        padding-right: 80px;
+      }
+    }
+    .form-box{
+      margin-top:80px;
+      h2{
+
+      }
+      div.wpcf7{
+
+        form{
+          span{
+
+            input{
+              width:22%;
+            }
+            input::placeholder{
+
+            }
+          }
+          input#send_btn{
+            width:175px
+          }
+        }
+      }
+      p.smaller{
+        span.small-txt{
+
+        }
+        span.small-tell{
+
+        }
+      }
+    }
+  }
+}
+@media screen and(max-width: 1100px){
+  section.head{
+    margin-bottom:-35px;
+    .container-fluid{
+
+      .flavor-logo{
+
+      }
+      .background-logo{
+
+        .flavor-text-top-left{
+
+        }
+        .background-txt{
+          font-size: 28px;
+          bottom: 33%;
+          padding: 0px 20px;
+          height: 45px;
+        }
+        .flavor-small-logo{
+
+          img{
+
+          }
+        }
+        .background-txt-sub{
+          padding: 5px;
+          top: -52px;
+          .service{
+            img{
+              width:20%;
+            }
+            span{
+              font-size: 16px;
+            }
+          }
+
+        }
+      }
+    }
+  }
+  section.form{
+
+    .slide{
+
+    }
+    .txt{
+
+      p{
+        padding-top: 10px;
+        font-size: 15px;
+        padding-right: 60px;
+      }
+    }
+    .form-box{
+      margin-top:70px;
+      h2{
+
+      }
+      div.wpcf7{
+
+        form{
+          span{
+
+            input{
+              width:22%;
+            }
+            input::placeholder{
+
+            }
+          }
+          input#send_btn{
+            width:175px
+          }
+        }
+      }
+      p.smaller{
+        span.small-txt{
+
+        }
+        span.small-tell{
+
+        }
+      }
+    }
+  }
+}
+@media screen and(max-width: 1050px){
+  section.head{
+    margin-bottom:-35px;
+    .container-fluid{
+
+      .flavor-logo{
+
+      }
+      .background-logo{
+
+        .flavor-text-top-left{
+
+        }
+        .background-txt{
+          font-size: 28px;
+          bottom: 33%;
+          padding: 0px 20px;
+          height: 45px;
+        }
+        .flavor-small-logo{
+
+          img{
+
+          }
+        }
+        .background-txt-sub{
+          padding: 5px;
+          top: -52px;
+          .service{
+            img{
+              width:20%;
+            }
+            span{
+              font-size: 16px;
+            }
+          }
+
+        }
+      }
+    }
+  }
+  section.form{
+
+    .slide{
+
+    }
+    .txt{
+
+      p{
+        padding-top: 10px;
+        font-size: 14px;
+        padding-right: 50px;
+      }
+    }
+    .form-box{
+      margin-top:60px;
+      h2{
+
+      }
+      div.wpcf7{
+
+        form{
+          span{
+
+            input{
+              width:22%;
+            }
+            input::placeholder{
+
+            }
+          }
+          input#send_btn{
+            width:175px
+          }
+        }
+      }
+      p.smaller{
+        span.small-txt{
+
+        }
+        span.small-tell{
+
+        }
+      }
+    }
+  }
+}
+///////////////////////////desktop queries -END
+
+///////////////////////////mobile queries -START
+
+@media screen and(max-width: 1024px){
+  section.head{
+    margin-bottom: 0px;
+    .container-fluid{
+
+      .flavor-logo{
+
+      }
+      .background-logo{
+
+        .flavor-text-top-left{
+          font-size: 33px;
+        }
+        .background-txt{
+          font-size: 28px;
+          bottom: 33%;
+          padding: 0px 20px;
+          height: 45px;
+        }
+        .flavor-small-logo{
+
+          img{
+
+          }
+        }
+        .background-txt-sub{
+          position: relative;
+          top: 0;
+          width: 100%;
+          left: 50%;
+          transform: translateX(-58%);
+          .service{
+            img{
+              width:unset;
+            }
+            span{
+              font-size: 24px;
+            }
+          }
+
+        }
+      }
+    }
+  }
+  section.form{
+
+    .slide{
+      width:100%;
+      float:unset;
+    }
+    .txt{
+
+      p{
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+        width: 75%;
+        padding-top: 20px;
+        font-size: 30px;
+      }
+    }
+    .form-box{
+      margin-top:60px;
+      h2{
+
+      }
+      div.wpcf7{
+
+        form{
+          span{
+            display: block;
+            margin-bottom: 20px;
+            input{
+              width:75%;
+              font-size: 28px;
+            }
+            input::placeholder{
+
+            }
+          }
+          input#send_btn{
+            width:75%;
+            font-size: 28px;
+          }
+        }
+      }
+      p.smaller{
+        span.small-txt{
+
+        }
+        span.small-tell{
+
+        }
+      }
+    }
+  }
+}
+
+///////////////////////////mobile queries -END
