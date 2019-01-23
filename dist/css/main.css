@@ -139,12 +139,33 @@ a:visited {
           filter: brightness(0) invert(1);
 }
 
+/* line 90, src/sass/components/_reset.scss */
+section.form {
+  background-size: 100%;
+}
+
+/* line 92, src/sass/components/_reset.scss */
+section.form .form-box-thanks {
+  margin-top: 0px;
+  height: 500px;
+}
+
+/* line 95, src/sass/components/_reset.scss */
+section.form .form-box-thanks h2.h2-thanks {
+  font-size: 70px;
+  direction: ltr;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  position: relative;
+  top: 25%;
+}
+
 @media screen and (max-width: 1000px) {
-  /* line 91, src/sass/components/_reset.scss */
+  /* line 105, src/sass/components/_reset.scss */
   .mobile {
     display: block;
   }
-  /* line 94, src/sass/components/_reset.scss */
+  /* line 108, src/sass/components/_reset.scss */
   .desktop {
     display: none;
   }

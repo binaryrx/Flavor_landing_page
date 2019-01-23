@@ -87,6 +87,20 @@ a:visited{
 .fa-chevron-left::before{
   filter:brightness(0) invert(1);
 }
+section.form{
+  background-size:100%;
+  .form-box-thanks{
+    margin-top: 0px;
+    height: 500px;
+    h2.h2-thanks{
+      font-size:70px;
+      direction:ltr;
+      transform: translateY(50%);
+      position: relative;
+      top: 25%;
+    }
+  }
+}
 @media screen and(max-width:1000px){
   .mobile{
     display:block;

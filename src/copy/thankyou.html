@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flavor</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="plugins/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="plugins/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="plugins/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <meta charset="UTF-8">
+
+</head>
+<body>
+
+<section class="form container-fluid" >
+    <!--<section class="info">-->
+
+    <div class="form-box form-box-thanks">
+        <h2 id="form-title" class=" h2-thanks">תודה</h2>
+
+    </div>
+
+    </div>
+</section>
+
+<!-- Scripts -->
+<script src="plugins/jquery-3.2.0.min.js"></script>
+<script src="plugins/owl-carousel/owl.carousel.js"></script>
+<script src="plugins/fancybox/jquery.fancybox.js"></script>
+<script src="plugins/scrollreveal/scrollreveal.js"></script>
+<script src="js/main.js"></script>
+<script>
+    $(document).ready(function ($) {
+        $('.slider').addClass("owl-carousel owl-theme").owlCarousel({
+            items: 2,
+            loop: true,
+            margin: 30,
+            nav: true,
+            dots: false,
+            autoplay: true,
+            autoplayHoverPause: false,
+            navText: ["<i class='fa fa-chevron-right fa-3x'></i>", "<i class='fa fa-chevron-left fa-3x'></i>"],
+            startPosition: 'right'
+
+        });
+
+        $("#send_btn").on("click", function(e){
+            e.preventDefault();
+            $("#alert").remove();
+            if(validate())
+            {
+                console.log("cool");
+                $(".alert").css("display", "none");
+                sendToMail();
+
+            }
+            else
+            {
+                $(".alert").css("display", "block");
+            }
+        });
+    });
+</script>
+
+
+</body>
+</html>
